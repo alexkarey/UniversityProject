@@ -1,23 +1,178 @@
-<!DOCTYPE HTML>
-<html lang="ru">
-  <head>
-  <!-- Подключаемые файлы, метатеги, название страницы -->
 
-  <!-- Кодировка страницы-->
-  <meta charset="utf-8"/> 
-  <title>Название страницы</title>
-  <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Главная</title>
 </head>
 <body>
-  <!-- Тело сайта, отвечает за вывод на страницу-->
-  <header>
-  <!-- Шапка сайта-->
-  </header>
-  <nav>
-  <!-- Навигация -->
-  </nav>
-  <footer>
-  <!-- Подвал сайта-->
-  </footer>
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="./icons/logo.svg" alt="logo">
+                    <h2>BMSTU FOOD</h2>
+                </a>
+            </div>
+            <h2 class="header-title">BMSTU FOOD</h2>
+
+                        
+            <a href="#" class="header-link">Версия для слабовидящих</a>
+            <div class="header-menu js-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header><div class="mobile-menu js-mobile-menu">
+   <ul class="mobile-menu__ul">
+        <li>
+            <a href="/">Главная</a>
+        </li>
+        <li>
+            <a href="#">Обратная связь</a>
+        </li>
+        <li>
+            <a href="#">Информация</a>
+        </li>
+        <li>
+            <a href="#">Версия для слабовидящих</a>
+        </li>
+
+           </ul>
+</div>
+    <main class="main">
+        <div class="container">
+            <div class="main-content">
+                
+                <nav class="main-content__nav">
+    <ul class="main-content__menu">
+        <li class="main-content-menu__item">
+            <a href="/">
+                <img src="./icons/home.svg" alt="home">
+                Главная
+            </a>
+        </li>
+        <li class="main-content-menu__item">
+            <a href="#">
+                <img src="./icons/feedback.svg" alt="feedback">
+                Обратная связь
+            </a>
+        </li>
+        <li class="main-content-menu__item">
+            <a href="#">
+                <img src="./icons/info.svg" alt="info">
+                Информация
+            </a>
+        </li>
+    </ul>
+</nav>
+                <div class="main-content__centers">
+                    <h2 class="main-content__title">Корпуса</h2>
+                    <div class="shopping-centers">
+
+                        
+                        <div class="shopping-center">
+                            <div class="shopping-center__img">
+                                <img src="./images/building/default.png" alt="Главный учебный корпус(ГУК)">
+                            </div>
+                            <div class="shopping-center__content">
+                                <h3 class="shopping-center__title ">Главный учебный корпус(ГУК)</h3>
+                                <p class="shopping-center__descr">2-я Бауманская ул., 5, стр. 1, Москва</p>
+                                <button class="shopping-center__btn js-shopping-center" > Открыть
+                                    <img src="./icons/arrow-right.svg" alt="arrow-right">
+                                </button>
+                            </div>
+                        </div>
+
+                        
+                        <div class="shopping-center">
+                            <div class="shopping-center__img">
+                                <img src="./images/building/default.png" alt="Учебно-лабораторный корпус">
+                            </div>
+                            <div class="shopping-center__content">
+                                <h3 class="shopping-center__title">Учебно-лабораторный корпус</h3>
+                                <p class="shopping-center__descr">Рубцовская наб., 2/18, Москва</p>
+                                 <button class="shopping-center__btn" > Открыть
+                                    <img src="./icons/arrow-right.svg" alt="arrow-right">
+                                </button>
+                            </div>
+                        </div>
+
+                        
+                        <div class="shopping-center">
+                            <div class="shopping-center__img">
+                                <img src="./images/building/default.png" alt="Спортивный комплекс(СК)">
+                            </div>
+                            <div class="shopping-center__content">
+                                <h3 class="shopping-center__title">Спортивный комплекс(СК)</h3>
+                                <p class="shopping-center__descr">Госпитальная наб., 4, стр. 1, Москва</p>
+                                <button class="shopping-center__btn js-shopping-center" > Открыть
+                                    <img src="./icons/arrow-right.svg" alt="arrow-right">
+                                </button>
+                            </div>
+                        </div>
+
+                        
+                        <div class="shopping-center">
+                            <div class="shopping-center__img">
+                                <img src="./images/building/default.png" alt="Специальное машиностроение(СМ)">
+                            </div>
+                            <div class="shopping-center__content">
+                                <h3 class="shopping-center__title">Специальное машиностроение(СМ)</h3>
+                                <p class="shopping-center__descr">Госпитальный пер., 10, Москва, </p>
+                                 <button class="shopping-center__btn" > Открыть
+                                    <img src="./icons/arrow-right.svg" alt="arrow-right">
+                                </button>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-content__logo">
+                <a href="/" class="footer-content__link">BMSTU FOOD</a>
+                <p class="footer-content__descr">Еда в МГТУ им. Н.Э.Баумана</p>
+            </div>
+            <div class="footer-content__links">
+                <a href="#">Обратная связь</a>
+                <a href="auth.php?m=log">Вход</a>
+                <a href="auth.php?m=reg">Регистрация</a>
+            </div>
+            <div class="footer-content__social-links">
+                <a href="#">
+                    <img src="./icons/facebook.svg" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="./icons/instagram.svg" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="./icons/twitter.svg" alt="twitter">
+                </a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <img src="./icons/copyright.svg" alt="copyright">
+            BMSTU FOOD. All right reserved
+        </div>
+    </div>
+</footer>    
+    <script src="./js/script.js"></script>
 </body>
 </html>
